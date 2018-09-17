@@ -1,0 +1,61 @@
+{
+  "name": "mvue-service",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/Service.js",
+  "bin": {
+    "mvue-service": "bin/mvue-service.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/999946/mvue-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/999946/mvue-service/issues"
+  },
+  "homepage": "https://github.com/999946/mvue-service#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^1.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "express": "^4.16.3",
+    "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-format": "^1.0.1",
+    "less": "^3.7.1",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "semver": "^5.5.0",
+    "style-loader": "^0.21.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "trim-loader": "^0.5.1",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.12.1",
+    "webpack-chain": "^4.8.0",
+    "webpack-dev-server": "^3.1.8",
+    "webpack-merge": "^4.1.3",
+    "webpackbar": "^2.6.1",
+    "yaml-loader": "^0.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "codecov": "^3.0.4",
+    "cross-env": "^5.2.0",
+    "jest": "^23.5.0"
+  }
+}
